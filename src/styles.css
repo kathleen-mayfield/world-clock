@@ -1,1 +1,62 @@
-
+body {
+  background-color: #fdf7fe;
+  font-family: "Wix Madefor Display";
+}
+select {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+h2 {
+  margin: 0;
+}
+hr {
+  background: none;
+  border: none;
+  border-bottom: 2px dashed #dadada;
+  padding: 10px;
+}
+footer {
+  text-align: center;
+  color: rgba (0 0 0 0.8);
+}
+.heading {
+  font-size: 36px;
+  font-weight: 800;
+  padding-bottom: 50px;
+}
+.container {
+  box-shadow: 4px 4px 5px 3px #f0e6f2;
+  border-radius: 5px;
+  max-width: 500px;
+  padding: 30px;
+  margin: 60px auto 25px;
+  background: white;
+}
+.city1 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+.city2,
+.city3,
+.city4 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.date {
+  opacity: 0.5;
+}
+.time {
+  font-size: 44px;
+  font-weight: 600;
+}
+.time small {
+  vertical-align: middle;
+  font-size: 18px;
+}
